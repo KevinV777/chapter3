@@ -1,10 +1,12 @@
 /**
- * @class: Paint
+ * @class: BMI
  * @author: Kevin Vergara
  * @verison 1.0
  * @course: ITEC 2140 - 04, Spring 20023
  * @written: February 8, 2023
- * description:
+ * description: this program calculates the weight in pounds and the height in inches that the user
+ * inputs. It takes those values and converts them to kilograms and meters then it computes the BMI.
+ * Once the BMI is calculated it is set to tell the user whether they are underweight, normal, overweight, or obese.
  */
 import java.net.SocketOption;
 import java.util.Scanner;

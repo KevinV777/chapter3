@@ -1,10 +1,14 @@
 /**
- *@class: Paint
+ *@class: Triangle
  *@author: Kevin Vergara
  *@verison 1.0
  *@course: ITEC 2140 - 04, Spring 20023
  *@written: February 8, 2023
- *description:
+ *description: this program asks the user to input the length of the sides of a real triangle.
+ * to make sure the triangle is real no combination of two sides added together can be less than the third side.
+ * To ensure that stays true I set up a few functions using the && to include all the
+ * combinations in an if else statement. if the lengths input do not make a real triangle it prints
+ * invalid input
  */
 import java.util.Scanner;
 public class Triangle {
